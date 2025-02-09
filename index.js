@@ -13,6 +13,10 @@ function logRequest(method, path) {
   });
 }
 
+
+
+
+
 function getCounter() {
   try {
     const data = fs.readFileSync(COUNTER_FILE, 'utf8');
